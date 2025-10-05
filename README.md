@@ -193,6 +193,5 @@ Follow these steps to download the project and run it on your local machine.
 Open your terminal and clone the project from GitHub:
 
 ```bash
-git clone [YOUR_GITHUB_REPO_URL]
-cd vite-react-typescript-starter 
-# (Or whatever your folder name is)
+git clone https://github.com/Arnab-satpati/Sikkim-Flood-Analysis
+cd Sikkim-Flood-Analysis
