@@ -69,22 +69,14 @@ function App() {
   const findings = [
     {
       id: 1,
-      title: 'Lake Expansion Detected',
-      summary: 'SAR analysis revealed a 35% increase in South Lhonak Lake surface area over the past decade.',
+      title: 'Glacier melting Detected',
+      summary: 'SAR analysis revealed a 27% increase in Pahunri Glacier surface area over the past decade.',
       details: 'Using multi-temporal SAR imagery analysis, we observed systematic expansion of the glacial lake boundaries. The lake area increased from approximately 60 hectares to 81 hectares between 2013 and 2023, indicating accelerated glacial melt and increased flood risk. This expansion rate correlates with regional temperature increase data.',
-      metric: '35%',
-      metricLabel: 'Area Increase'
+      metric: '27%',
+      metricLabel: 'Area Decrease'
     },
     {
       id: 2,
-      title: 'Terrain Deformation Patterns',
-      summary: 'Interferometric SAR data shows subsidence patterns in the moraine dam structure.',
-      details: 'InSAR analysis detected progressive subsidence of up to 15cm in the moraine dam structure over 18 months preceding the event. This deformation pattern, combined with increased pore water pressure indicators, suggested structural weakening that ultimately led to catastrophic failure.',
-      metric: '15cm',
-      metricLabel: 'Subsidence Detected'
-    },
-    {
-      id: 3,
       title: 'Flood Impact Mapping',
       summary: 'Post-event imagery confirms flood waters traveled over 100 km downstream.',
       details: 'SAR-based flood extent mapping revealed that the flood waters affected over 350 square kilometers of terrain along the Teesta River corridor. The analysis identified 23 critical infrastructure points damaged, including bridges, roads, and hydroelectric facilities. Peak flood velocity was estimated at 15-20 m/s in narrow valley sections.',
@@ -92,7 +84,7 @@ function App() {
       metricLabel: 'Affected Area'
     },
     {
-      id: 4,
+      id: 3,
       title: 'Climate Change Correlation',
       summary: 'Long-term SAR monitoring data correlates with regional temperature increases.',
       details: 'Analysis of 15 years of SAR data shows a clear correlation between rising average temperatures (1.5°C increase) and glacial lake expansion rates. The frequency of GLOF events in the region has increased by 300% since 2000, with South Lhonak Lake identified as a high-risk site since 2016.',
@@ -161,7 +153,7 @@ function App() {
             <div className="bg-slate-700/50 backdrop-blur-sm rounded-xl p-8 border border-slate-600 hover:border-cyan-500 transition-all duration-300 hover:scale-105 cursor-pointer group">
               <Calendar className="w-12 h-12 text-cyan-400 mb-4 group-hover:scale-110 transition-transform" />
               <h3 className="text-2xl font-bold text-white mb-3">Event Date</h3>
-              <p className="text-slate-300 leading-relaxed">October 4, 2023 - Catastrophic flash flood</p>
+              <p className="text-slate-300 leading-relaxed">June 1st, 2025 - Catastrophic flash flood</p>
             </div>
 
             <div className="bg-slate-700/50 backdrop-blur-sm rounded-xl p-8 border border-slate-600 hover:border-cyan-500 transition-all duration-300 hover:scale-105 cursor-pointer group">
@@ -212,41 +204,48 @@ function App() {
           </div>
 
           <div className="bg-gradient-to-br from-slate-700/80 to-slate-800/80 backdrop-blur-sm rounded-2xl p-10 border border-slate-600 shadow-2xl">
-            <div className="prose prose-invert prose-lg max-w-none">
-              <h3 className="text-3xl font-bold text-cyan-400 mb-6">Glacial Lake Outburst Flood (GLOF) Trigger Mechanism</h3>
+    <div className="prose prose-invert prose-lg max-w-none">
+        <h3 className="text-3xl font-bold text-cyan-400 mb-6">Hypothesized Flood Drivers</h3>
 
-              <p className="text-slate-200 leading-relaxed mb-6">
-                The catastrophic flood event in Sikkim on October 4, 2023, was primarily triggered by a Glacial Lake Outburst Flood (GLOF) from South Lhonak Lake, resulting from:
-              </p>
+        <p className="text-slate-200 leading-relaxed mb-6">
+            The catastrophic event was a result of multiple, compounding factors, identified through integrated SAR and atmospheric data analysis:
+        </p>
 
-              <div className="bg-slate-800/80 rounded-lg p-6 mb-6 border-l-4 border-cyan-500">
-                <ul className="space-y-4 text-slate-200">
-                  <li className="flex items-start gap-3">
-                    <span className="bg-cyan-500 text-white rounded-full w-6 h-6 flex items-center justify-center flex-shrink-0 mt-1 font-semibold text-sm">1</span>
-                    <span><strong className="text-white">Accelerated Glacial Melting:</strong> Rising temperatures caused rapid ice melt, expanding the glacial lake beyond critical thresholds.</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <span className="bg-cyan-500 text-white rounded-full w-6 h-6 flex items-center justify-center flex-shrink-0 mt-1 font-semibold text-sm">2</span>
-                    <span><strong className="text-white">Moraine Dam Failure:</strong> The natural moraine dam containing the lake became structurally compromised due to increased hydrostatic pressure and seepage.</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <span className="bg-cyan-500 text-white rounded-full w-6 h-6 flex items-center justify-center flex-shrink-0 mt-1 font-semibold text-sm">3</span>
-                    <span><strong className="text-white">Cascading Impact:</strong> The sudden release of lake water created a destructive cascade effect, amplified by the Teesta River system and subsequent dam breaches.</span>
-                  </li>
-                </ul>
-              </div>
+        {/* DRIVER 1 */}
+        <div className="mb-8 p-4 bg-slate-800/60 rounded-lg">
+            <h4 className="text-2xl font-bold text-white mb-3 border-b border-slate-700 pb-2">Driver 1</h4>
+            <ul className="list-disc list-outside ml-5 space-y-2 text-slate-200">
+                <li>SAR imagery revealed blockage patterns near dam sites, consistent with piled log residues.</li>
+                <li>This acted as a temporary obstruction, amplifying the force of the eventual water release.</li>
+            </ul>
+        </div>
 
-              <p className="text-slate-200 leading-relaxed mb-4">
-                <strong className="text-white">Supporting Evidence:</strong> Synthetic Aperture Radar (SAR) imagery provides crucial all-weather, day-and-night capability to detect changes in surface water extent, terrain deformation, and structural displacement that preceded and followed the event.
-              </p>
+        {/* DRIVER 2 */}
+        <div className="mb-8 p-4 bg-slate-800/60 rounded-lg">
+            <h4 className="text-2xl font-bold text-white mb-3 border-b border-slate-700 pb-2">Driver 2</h4>
+            <ul className="list-disc list-outside ml-5 space-y-2 text-slate-200">
+                <li>Weather and atmospheric data indicated unusually high moisture build-up in the region.</li>
+                <li>Intense rainfall increased river discharge, raising stress on natural and artificial barriers.</li>
+            </ul>
+        </div>
 
-              <div className="bg-amber-500/10 border border-amber-500/30 rounded-lg p-6">
-                <p className="text-amber-200 mb-0">
-                  <strong className="text-amber-300">Key Implication:</strong> This event underscores the urgent need for enhanced glacial lake monitoring systems and early warning infrastructure in vulnerable Himalayan regions facing climate change impacts.
-                </p>
-              </div>
-            </div>
-          </div>
+        {/* DRIVER 3 */}
+        <div className="mb-8 p-4 bg-slate-800/60 rounded-lg">
+            <h4 className="text-2xl font-bold text-white mb-3 border-b border-slate-700 pb-2">Driver 3</h4>
+            <ul className="list-disc list-outside ml-5 space-y-2 text-slate-200">
+                <li>Multi-temporal SAR and temperature records showed enhanced glacier retreat and meltwater flow.</li>
+                <li>Meltwater inflow into rivers added to the sudden surge, compounding flood severity.</li>
+            </ul>
+        </div>
+
+        {/* KEY IMPLICATION - Reused styling */}
+        <div className="bg-amber-500/10 border border-amber-500/30 rounded-lg p-6 mt-6">
+            <p className="text-amber-200 mb-0">
+                <strong className="text-amber-300">Key Implication:</strong> The simultaneous occurrence of climatic (Driver 3, 2) and structural (Driver 1) factors resulted in the catastrophic scale of the flood event.
+            </p>
+        </div>
+    </div>
+</div>
         </div>
       </section>
 
@@ -470,7 +469,7 @@ function App() {
             This analysis is based on synthetic aperture radar imagery and scientific research. For official reports and updates, please consult relevant governmental and scientific institutions.
           </p>
           <p className="text-slate-500 mt-4">
-            2025 Sikkim Flood Research Initiative
+            &copy; 2025 Sikkim Flood Research Initiative. All Rights Reserved
           </p>
         </div>
       </footer>
