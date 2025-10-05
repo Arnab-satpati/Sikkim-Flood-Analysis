@@ -178,3 +178,21 @@ For questions or collaboration inquiries, visit our GitHub repository or contact
 ## Hypothesis
 
 ![Alt text](assets/img2.png)
+
+## 🚀 Quick Start (Local Development)
+
+Follow these steps to download the project and run it on your local machine.
+
+### Prerequisites
+
+* Node.js (LTS version recommended)
+* Git
+
+### 1. Clone the Repository
+
+Open your terminal and clone the project from GitHub:
+
+```bash
+git clone [YOUR_GITHUB_REPO_URL]
+cd vite-react-typescript-starter 
+# (Or whatever your folder name is)
