@@ -46,23 +46,23 @@ function App() {
     {
       id: 1,
       title: 'Pre-Flood SAR Image',
-      date: 'September 15, 2023',
+      date: 'May 17, 2025',
       description: 'Baseline synthetic aperture radar imagery showing normal water levels and terrain stability.',
-      imageUrl: 'https://github.com/Soham-Banerjee-web/NASA-app-challenge/blob/main/Snippet/17th%20May,2025/Mangan/SAR.jpg?raw=true'
+      imageUrl: 'Snippet/17th May,2025/Mangan/SAR.jpg'
     },
     {
       id: 2,
       title: 'During Flood Event',
-      date: 'October 4, 2023',
+      date: 'June 1, 2025',
       description: 'SAR imagery captured during the catastrophic flood event showing significant water accumulation and displacement.',
-      imageUrl: 'https://github.com/Soham-Banerjee-web/NASA-app-challenge/blob/main/Snippet/1st%20June,2025/Mangan/SAR.jpg?raw=true'
+      imageUrl: 'Snippet/1st June,2025/Mangan/SAR.jpg'
     },
     {
       id: 3,
       title: 'Post-Flood Analysis',
-      date: 'October 15, 2023',
+      date: 'July 4, 2025',
       description: 'Post-event analysis revealing altered terrain patterns and residual flood impact zones.',
-      imageUrl: 'https://github.com/Soham-Banerjee-web/NASA-app-challenge/blob/main/Snippet/4th%20July/Mangan/SAR.jpg?raw=true'
+      imageUrl: 'Snippet/4th July/Mangan/SAR.jpg'
     }
   ];
 
