@@ -162,14 +162,19 @@ For questions or collaboration inquiries, visit our GitHub repository or contact
 ---
 # Few website Snippets
 
+## Dashboard
+
+![Alt text](assets/img0.png)
+
 ## interactive map
 
 ![Alt text](assets/img1.png)
 
 ## Side-by-side comparison (Pre, During, Post Flood Visuals)
 
-![Alt text](assets/img2.png)
+![Alt text](assets/img3.png)
+![Alt text](assets/img4.png)
 
 ## Hypothesis
 
-![Alt text](assets/img3.png)
+![Alt text](assets/img2.png)
