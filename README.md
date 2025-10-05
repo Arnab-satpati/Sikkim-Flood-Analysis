@@ -117,7 +117,7 @@ This project demonstrates how open-source **Earth observation data** and **AI to
 - [Sikkim Flood Analysis Tool](https://github.com/Arnab-satpati/Sikkim-Flood--Analysis-Tool)  
 
 **Live Demo:**  
-[LinkedIn Demo Video](https://www.linkedin.com/posts/soham-banerjee-aaa466202_remotesensing-sar-climatechange-activity-7380477771057172481-65uq?utm_source=share&utm_medium=member_android&rcm=ACoAADOuZKIBJ3kJnTTAoy2xYIdfK7VB_ZfFHQY)
+[LinkedIn Demo Video](https://www.linkedin.com/posts/arnab-satpati_climatechange-sikkimfloods-disastermanagement-activity-7380618189786963968-45BZ?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEBZmckB539xJ_N03UxO-HhoyZT5dO5TjvI)
 
 **Website:**  
 [Sikkim Flood Analysis Platform](https://sikkim-flood-analysis.netlify.app/)  
@@ -160,3 +160,16 @@ We thank the **NASA Space Apps Challenge organizers**, the **Copernicus program*
 For questions or collaboration inquiries, visit our GitHub repository or contact us directly.  
 
 ---
+# Few website Snippets
+
+## interactive map
+
+![Alt text](assets/img1.png)
+
+## Side-by-side comparison (Pre, During, Post Flood Visuals)
+
+![Alt text](assets/img2.png)
+
+## Hypothesis
+
+![Alt text](assets/img3.png)
